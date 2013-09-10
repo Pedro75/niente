@@ -1,0 +1,187 @@
+/* CSS Document Alphabet */
+
+.letterar {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #FF0000;
+border-top:double 2px  red;
+
+border-bottom:double 2px  red;
+
+
+}
+.letterar a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:red;
+}
+
+.letterar a:hover {background-color:red;
+color:#FFFFFF;}
+
+
+
+.letterag {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #00CC33;
+border-top:double 2px  #00CC33;
+
+border-bottom:double 2px #00CC33;
+
+
+}
+.letterag a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:#00CC33;
+}
+
+.letterag a:hover {background-color:#00CC33;
+color:#FFFFFF;}
+
+
+.letterao {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #FF9900;
+border-top:double 2px  #FF9900;
+
+border-bottom:double 2px #FF9900;
+
+
+}
+.letterao a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:#FF9900;
+}
+
+.letterao a:hover {background-color:#FF9900;
+color:#FFFFFF;}
+
+/*viola #9933CC */
+
+.letterav {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #9933CC;
+border-top:double 2px  #9933CC;
+
+border-bottom:double 2px #9933CC;
+
+
+}
+.letterav a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:#9933CC;
+}
+
+.letterav a:hover {background-color:#9933CC;
+color:#FFFFFF;}
+
+/* giallo #FFCC00 */
+
+
+.letteray {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #FFCC00;
+border-top:double 2px  #FFCC00;
+
+border-bottom:double 2px #FFCC00;
+
+
+}
+.letteray a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:#FFCC00;
+}
+
+.letteray a:hover {background-color:#FFCC00;
+color:#FFFFFF;}
+
+/* blu #0033FF */
+
+.letterab {
+width: 15px;
+height:17px;
+float:left;
+padding-right:2px;
+margin-left: 2px;
+margin-top: 2px;
+text-align:center;
+font-size:12px;
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color: #0033FF;
+border-top:double 2px  #0033FF;
+
+border-bottom:double 2px #0033FF;
+
+
+}
+.letteray a {
+font-family: 'Paytone One', sans-serif;
+font-weight:300;
+text-decoration:none;
+color:#0033FF;
+}
+
+.letteray a:hover {background-color:#0033FF;
+color:#FFFFFF;}
+
+

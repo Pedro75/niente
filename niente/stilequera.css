@@ -1,0 +1,76 @@
+/* CSS Document */
+
+body {
+  color: #000;
+  background-color: #fff;
+  font: 76% Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+table {
+border:thin;
+color:#000000;
+}
+
+table#qtab {
+border:1.0px;
+border-color:#00FFCC;
+}
+
+th
+{
+font-size:14px;
+padding-left:2.0px;
+padding-right:2.0px;
+
+}
+
+font
+{
+font-size:14px;
+font-weight:bold;
+color:#0000FF;
+} 
+
+
+h1#field
+{
+color:#FF0000;
+} 
+
+
+.cont
+{
+font-size:12px;
+font-weight:bold;
+color: #FF0000;
+} 
+
+
+div#cpanel{
+position:fixed;
+right: 250.0px;
+}
+
+
+div#cpanel{
+position:fixed;
+right: 250.0px;
+}
+
+
+img#cpanel { 
+border: none;
+width: 75.0px;
+height: 75.0px;
+  }
+
+img#quera {
+  border: none;
+  width: 25.0px;
+  height:25.0px;
+    }
+
+

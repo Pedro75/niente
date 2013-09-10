@@ -1,0 +1,78 @@
+/* CSS Document */
+
+.nav-wrapper { clear:both; /*border-bottom:2px solid;*/  margin: 0; z-index:1;}
+.nav-wrapper li {text-decoration:none;}
+#home .nav-wrapper { border-bottom-color:#333}
+#copertina .nav-wrapper { border-bottom-color:#ff9b21}
+#politica .nav-wrapper { border-bottom-color:#ff6c1e}
+#mondo .nav-wrapper { border-bottom-color:#e31918}
+#cronaca .nav-wrapper { border-bottom-color:#be2221}
+#economia .nav-wrapper { border-bottom-color:#831483}
+#sport .nav-wrapper { border-bottom-color:#0c559a}
+#spettacoli .nav-wrapper { border-bottom-color:#1895bf}
+#tecnologia .nav-wrapper { border-bottom-color:#2ac1f5}
+#natura .nav-wrapper { border-bottom-color:#3bc78a}
+#divertimento .nav-wrapper { border-bottom-color:#2d9267}
+
+
+.nav-wrapper nav[role="navigation"] { width:150px; margin:0 auto; height:37px;}
+nav[role="navigation"]:before, nav[role="navigation"]:after { content: ""; display: table; }
+nav[role="navigation"]:after { clear: both; }
+nav[role="navigation"] { zoom: 1; }
+
+/*Hot Topics*/
+.main-nav ul { text-decoration:none;}
+
+/*.main-nav li { float:left;}
+*/
+
+.main-nav li.active {
+border:none; 
+}
+.main-nav a, .main-nav a:visited {
+	/*font:14px GothamRegular;*/ 
+	font:'Paytone One', sans-serif; font-size:21px;
+	font-weight: 300;
+	text-decoration:none;
+	 margin:0 5px;
+	 padding:5px 5px 6px;
+	   display:block;color: #fff;
+}
+   
+   
+   
+.ie9 .main-nav a, .ie9 .main-nav a:visited { padding-bottom:7px;}
+
+.main-nav a.menucolor-1 {color:#333;}
+  .main-nav a.menucolor-1:hover {background-color:#333; background-position:5px -3px; padding-bottom:8px}
+.main-nav a.menucolor-2 {color:#00CC33;border-bottom:2px #00CC33 solid}
+  .main-nav a.menucolor-2:hover, .main-nav li.active a.menucolor-2 {background-color:#00CC33;border-top:2px #00CC33 solid; z-index:1;}
+.main-nav a.menucolor-3 {color:red;border-bottom:2px red solid}
+  .main-nav a.menucolor-3:hover, .main-nav li.active a.menucolor-3  {background-color:red;}
+.main-nav a.menucolor-4 {color:#FF9900;border-bottom:2px #FF9900 solid}
+  .main-nav a.menucolor-4:hover, .main-nav li.active a.menucolor-4  {background-color:#FF9900;}
+.main-nav a.menucolor-5 {color:#0033FF;border-bottom:2px #0033FF solid}
+  .main-nav a.menucolor-5:hover, .main-nav li.active a.menucolor-5  {background-color:#0033FF;}
+.main-nav a.menucolor-6 {color:#831483;border-bottom:2px #831483 solid}
+  .main-nav a.menucolor-6:hover, .main-nav li.active a.menucolor-6  {background-color:#831483;}
+.main-nav a.menucolor-7 {color:#FFCC00;border-bottom:2px #FFCC00 solid}
+  .main-nav a.menucolor-7:hover, .main-nav li.active a.menucolor-7  {background-color:#FFCC00;}
+.main-nav a.menucolor-8 {color:#1895bf;border-bottom:2px #1895bf solid}
+  .main-nav a.menucolor-8:hover, .main-nav li.active a.menucolor-8  {background-color:#1895bf;}
+.main-nav a.menucolor-9 {color:#2ac1f5; border-bottom:2px #2ac1f5 solid}
+  .main-nav a.menucolor-9:hover, .main-nav li.active a.menucolor-9  {background-color:#2ac1f5;}
+.main-nav a.menucolor-10 {color:#3bc78a;border-bottom:2px #3bc78a solid}
+  .main-nav a.menucolor-10:hover, .main-nav li.active a.menucolor-10  {background-color:#3bc78a;}
+.main-nav a.menucolor-11 {color:#2d9267;border-bottom:2px #2d9267 solid}
+  .main-nav a.menucolor-11:hover, .main-nav li.active a.menucolor-11  {background-color:#2d9267;}  
+
+.main-nav a:hover, .main-nav li.active a {color:#fff;}
+ .main-nav li.active a {margin-top: -5px;padding:9px 5px; border-top:none}
+
+.main-nav a.home {background:url(../images/sprite.png) -24px -3px no-repeat; text-indent:-9999px; width:20px}  
+.main-nav li.active a.home, .main-nav li.active a.home:hover {background-color:#333; background-position:6px 2px; padding-bottom:9px }
+.ie9 .main-nav li.active a.home, .ie9 .main-nav li.active a.home:hover { padding-bottom:10px }
+  
+
+
+

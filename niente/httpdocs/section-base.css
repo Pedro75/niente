@@ -1,0 +1,316 @@
+/* @override http://www3.repubblica.it/static/css/section/2010/section-base.css */
+body { font:14px/20px Arial, Helvetica, sans-serif; color:#222; margin:0 auto; text-align:center; background:#efefef url(http://www.repubblica.it/static/images/homepage/2010/body-gray.png) center repeat-y }
+body.fix1024 { margin-left:10px; margin-right:15px; }
+.iphone #container, .ipad #container {width: 1010px}
+.iphone body, .ipad body { margin-left:0; margin-right:15px }
+
+/* Generic ------------------------------------- */
+.rep-shared #header * { margin:0; padding:0; }
+.rep-shared #header .left { float:left !important }
+.rep-shared #header .right { float:right !important }
+.rep-shared #header .hide { display:none }
+.rep-shared #header .last { border:none !important }
+.rep-shared #header .replaced { display:block; height:1px; outline:none; overflow:hidden; text-indent:-9999px; width:1px; background:no-repeat 0 0 }
+.rep-shared #header .clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+* html .rep-shared #header .clearfix { zoom:1 }
+*:first-child+html .rep-shared #header .clearfix { zoom:1 }
+.rep-shared #header button { border:none; background:none; margin:0; width:auto; overflow:visible; text-align:center; white-space:nowrap; cursor:pointer }
+.rep-shared #header button span, .rep-shared #header button em { display:block; height:20px; font:12px/20px Arial, Helvetica, sans-serif; margin:0; color:#555 }
+.rep-shared #header button span { padding-left:10px; background:url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png) no-repeat 0 -1630px}
+.rep-shared #header button em { font-style:normal; padding-right:10px; background:url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png) no-repeat 100% -1630px }
+.rep-shared #header button.submit-button:hover span { background-position:0 -1650px }
+.rep-shared #header button.submit-button:hover em { background-position:100% -1650px }
+.rep-shared #header button.submit-button:active span { background-position:0 -1670px; outline:none; -moz-outline-style:none }
+.rep-shared #header button.submit-button:active em { background-position:100% -1670px; outline:none; -moz-outline-style:none }
+.rep-shared #header button:focus { outline:none; -moz-outline-style:none }
+.rep-shared #header button::-moz-focus-inner { border: none !important; padding:0 }
+
+.ie .rep-shared #header button { width:auto; overflow:visible }
+.ie .rep-shared #header button span { margin-top:1px }
+* html .rep-shared #header li, * html #footer li { zoom:1 }
+
+/* Inutility ------------------------------------ */
+::selection { background:#dfdfdf; color:#2992c1 }
+::-moz-selection { background:#dfdfdf; color:#2992c1 }
+
+
+/* Link + Icone ------------------------------------ */
+.rep-shared #header a img { border-width:0; border-style:none }
+.rep-shared #header a, .rep-shared #header a:visited,#footer, #footer a, #footer a:visited  { font-family:Arial, Helvetica, sans-serif; color:#00386B; text-decoration:none }
+.rep-shared #header a:hover,#footer a:hover { text-decoration:none; color:#222 }
+
+/* + */
+
+#container { background-color:#fff; width:990px; margin:0 auto; text-align: left; }
+.rep-shared footer, .rep-shared #header,.rep-shared .page-body, #footer { width:990px; margin:0 auto 10px auto; background-color:#fff; text-align:left }
+.rep-shared .page-body:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+* html .rep-shared .page-body { zoom:1 }
+*:first-child+html .rep-shared .page-body { zoom:1 }
+
+/* ADV ----------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+.rep-shared #header .adv { margin-bottom:10px }
+.rep-shared #header .adv-top { display:block; margin:0 auto 6px; text-align:center; width:990px; padding:0 0 7px; border-bottom:1px solid #dbdbdb;}
+.section .adv-top3 { margin: 0 }
+.rep-shared #header .adv-strip { margin:0 }
+
+/* HEADER 2LEV --------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+.rep-shared #header ul { list-style:none }
+	.rep-shared #header ul li { float:left }
+
+.rep-shared #header ul.network:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+	* html .rep-shared #header ul.network { zoom:1 }
+	*:first-child+html .rep-shared #header ul.network { zoom:1 }
+
+.rep-shared #header ul.network { }
+.rep-shared #header ul.network li { padding:2px 0; font-size:12px }
+	.rep-shared #header ul.network li a, .rep-shared #header ul.network li a:visited { font-size:12px; padding:0 6px; border-right:1px solid #9b9b9b }
+	.rep-shared #header ul.network li a:hover { color:#222 }
+		.rep-shared #header ul.network li.first a,.rep-shared #header ul.network li.first a:visited { padding-left:0 }
+	.rep-shared #header ul.network li.feed-rss a, .rep-shared #header ul.network li.feed-rss a:visited { border:none; color:#f63 }
+	.rep-shared #header ul.network li.feed-rss a:hover { color:#9f0d00 }
+		#header ul.network li.last a,#header ul.network li.last a:visited { border-right:none }	
+
+	/*link first icon */
+	.rep-shared #header ul.network li.links ul li.rep-plus-icon a, #header ul.network li.links ul li.rep-plus-icon a:visited {display:block; width:80px;height:20px;text-indent:-9999px;border:none;background: url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png); background-position:-176px -2328px}
+	.rep-shared #header ul.network li.links ul li.rep-plus-icon a:hover {background: url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png); background-position:-176px -2299px}
+	.rep-shared #header ul.network li.second a,#header ul.network li.second a:visited { margin-left:2px;border-left:1px solid #9b9b9b }
+
+.rep-shared #header ul.network li a.rep-icon, 
+.rep-shared #header ul.network li a.rep-icon:visited {  display:block; width:79px; height:20px; margin: 2px 6px 0 0; border:none; text-indent:-9999px;background: url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png); background-position:-300px -2328px}
+.rep-shared #header ul.network li a.rep-icon:hover{ background: url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png); background-position:-300px -2299px}
+
+
+
+
+	.rep-shared #header ul.network li a em, .rep-shared #header ul.network li a:visited em { background-color:#f00; font-style:normal; margin:-5px 0 0 0; font-size:10px; color:#fff; padding:2px 3px;	moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px }
+	.ie .rep-shared #header ul.network li a em, .ie .rep-shared #header ul.network li a:visited em { padding:1px 2px }
+
+.rep-shared #header ul.network li.gele { float:right; font-size:11px; position:relative }
+	.rep-shared #header ul.network li.gele li { font-size:12px }
+	.rep-shared #header ul.network li.gele li a, .rep-shared #header ul.network li.gele li a:visited { border:none }
+		.rep-shared #header ul.network li.gele li.user-edit a, .rep-shared #header ul.network li.gele li.user-edit a:visited { padding:3px 0 }
+		.rep-shared #header ul.network li.gele li.user-logout a, .rep-shared #header ul.network li.gele li.user-logout a:visited { border-right:1px solid #9b9b9b}
+		.rep-shared #header ul.network li.gele li a.lespresso, .rep-shared #header ul.network li.gele li a.lespresso:visited { width:73px; height:14px; background-image:url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png); background-position:0 -2296px; padding:4px 6px 0 6px; margin:0 0 0 6px}
+			.rep-shared #header ul.network li.gele li a.lespresso:hover { background-position:0 -2347px }
+			.ie8 .rep-shared #header ul.network li.gele li a.lespresso:hover { background-position:0 -2346px }
+		#header ul.network li.gele li a.inchieste,#header ul.network li.gele li a.inchieste:visited {background: url("http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png") -439px -2326px no-repeat;  width:91px; height:14px; padding:4px 0 0 0; margin:0 0 0 6px}
+			#header ul.network li.gele li a.inchieste:hover { background-position:-439px -2299px }	
+				
+		.rep-shared #header ul.network li.gele li.network-ge a, .rep-shared #header ul.network li.gele li.network-ge a:visited { border-left:1px solid #9b9b9b; /*text-transform:uppercase;*/ background:url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png) no-repeat 100% -1376px; padding-right:15px }
+		
+		.rep-shared #header ul.network li.gele li.network-ge a.open, .rep-shared #header ul.network li.gele li.network-ge a.open:visited { background-position:100% -1427px}
+		
+
+/* network toggle condiviso */		
+.rep-shared #header ul.network li.gele li.network-ge ul { position:absolute; margin-top:3px; right:0; z-index:9999; background-color:#dedede;border-bottom:1px solid #9b9b9b; width:810px; padding:8px 10px 2px 10px }
+	.ie6 .rep-shared #header ul.network li.gele li.network-ge ul,.ie7 .rep-shared #header ul.network li.gele li.network-ge ul { margin-top:20px }
+	.ie6 .rep-shared #header ul.network li.gele li.network-ge ul ul ,.ie7 .rep-shared #header ul.network li.gele li.network-ge ul ul { margin-top:0; }
+/**/
+.rep-shared #header ul.network li.gele li.network-ge li { padding:0 0 0 15px; font-size:11px }
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-1-col
+			{ width: 285px; border-right:1px solid #fff; padding-left:0 }
+		.rep-shared #header ul.network li.gele li.network-ge li.network-ge-1-col ul
+			{ width:140px; float:left }
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-2-col
+			{ width: 150px; border-right:1px solid #fff }
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-3-col
+			{ width: 55px; border-right:1px solid #fff }
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-4-col
+			{ width: 125px; border-right:1px solid #fff }					
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col
+			{width: 130px }
+	.rep-shared #header ul.network li.gele li.network-ge li.close-network { clear:both; border-top:1px solid #eaeaea; text-align:right; margin:7px 0 0 0; padding:5px 0 3px 0; width:100%;  }
+		.rep-shared #header ul.network li.gele li.network-ge li.close-network a, .rep-shared #header ul.network li.gele li.network-ge li.close-network a:visited { display:block; text-transform:uppercase }
+
+/**/
+	.rep-shared #header ul.network li.gele li.network-ge li a,.rep-shared #header ul.network li.gele li.network-ge li a:visited { border:none; text-transform:none; padding:0; font-size:11px; line-height:12px; background:none; margin:0; }
+	.rep-shared #header ul.network li.gele li.network-ge li ul { position:static; width:auto; margin-top:5px; padding:0; border-bottom:none }
+	
+	.rep-shared #header ul.network li.gele li.network-ge li li	{ padding:0; float:none; line-height:12px;}
+	.rep-shared #header ul.network li.gele li.network-ge li h6	{ text-transform:uppercase; font-weight:bold }
+	.rep-shared #header ul.network li.gele li.network-ge li li a,.rep-shared #header ul.network li.gele li.network-ge li li a:visited { padding:3px 0; display:block; background-image:none }
+		.rep-shared #header ul.network li.gele li.network-ge li ul li ul { margin:0; width:auto }
+		.rep-shared #header ul.network li.gele li.network-ge li ul li ul li { padding-left:10px }
+
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li a, .rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li a:visited { display:block; background: url(http://www.repubblica.it/static/images/homepage/2010/sprite-network.png) no-repeat -1px 1px; text-indent:-9999px; padding:5px 0; margin-bottom:5px; zoom:1}
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-trovacinema a,
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-trovacinema a:visited
+		{ background-position:-1px -27px}
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-casadesign a,
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-casadesign a:visited
+		{ background-position:0 -58px}
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-xl a,
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-xl a:visited
+		{ background-position:-1px -88px}
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-ilmiolibro a,
+	.rep-shared #header ul.network li.gele li.network-ge li.network-ge-5-col li.network-ilmiolibro a:visited
+		{ background-position:-2px -117px}
+	/* /network toggle condiviso */	
+
+		
+	
+	/* Brand + Site Search ------------ */
+	.rep-shared #header #brand { border-top:1px solid #dbdbdb; padding:7px 0}
+	.rep-shared #header #brand .left { margin-top:2px; width:600px }
+	.rep-shared #header #brand .left a, #brand .left a:visited { float:left }
+	.rep-shared #header #brand .left a img { padding-right:10px }
+	.rep-shared #header #brand a.section, .rep-shared #header #brand a.section:visited { display:block; font-size:30px; line-height:52px; height:50px; border-left:1px solid #dbdbdb; text-indent:18px; cursor:pointer }
+
+
+	/* Ricerca slide */
+	.rep-shared #header #site-search { float:left; margin:13px 0 0; position:relative; z-index:20 }
+	.rep-shared #header #site-search fieldset { float:left; width:370px }
+		.home .rep-shared #header #site-search fieldset { width:300px }
+	
+	.rep-shared #header #site-search label { display:none }
+	.rep-shared #header #site-search fieldset { border:none }
+	.rep-shared #header #site-search fieldset input { border:1px solid #bbb; padding:3px 4px 2px 5px; margin:0 1px 0 0; width:280px; color:#dbdbdb; float:left; font-size:11px; position:relative; z-index:999 !important }
+		.home .rep-shared #header #site-search fieldset input { width:230px}
+		.chrome .home .rep-shared #header #site-search fieldset input { width:229px}
+		.ie8 .home .rep-shared #header #site-search fieldset input {  }		
+				
+	.rep-shared #header #site-search #site-searchformbutton { padding:0; margin:0; float:right }
+	 .ie .rep-shared #header ul.twolev #site-searchformbutton { margin:-3px 0 0 0 }			 
+	 .ie8 .rep-shared #header #site-search #site-searchformbutton { margin:-1px 0 0 0 }
+	.rep-shared #header #site-search ul.site-search-option { clear:both; width:280px; border:2px solid #bbb; background-color:#fff; padding:5px 2px 4px 5px; position:absolute; z-index:998 !important; margin-top:15px;  }
+		.home .rep-shared #header ul.twolev ul.site-search-option { width:230px; margin-top:20px; border-top-width:1px }
+		.ie .rep-shared #header #site-search ul.site-search-option, .ie .home #site-search ul.site-search-option { margin-top:0px; border-top-width:1px }
+		.ie8 .rep-shared #header #site-search ul.site-search-option, .ie8 .home #site-search ul.site-search-option { margin-top:20px; border-top-width:2px }
+
+	.rep-shared #header #site-search ul.site-search-option li { list-style:none; width:100%; padding:1px 0; font-weight:bold; font-size:12px }
+	.rep-shared #header #site-search ul.site-search-option li label input { float:left; width:20px; margin:0 4px 0 0; border:none }
+		.ie .rep-shared #header #site-search ul.site-search-option li label input { margin:-1px 2px 0 0 }
+	.rep-shared #header #site-search ul.site-search-option li ul { margin:5px 0 10px 0 }
+	.rep-shared #header #site-search ul.site-search-option li li { font-weight:normal; line-height:17px; padding:1px 0 }
+	.rep-shared #header #site-search ul.site-search-option li.search-google { background:transparent url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png) no-repeat 101% -2253px}
+	.rep-shared #header #site-search ul.site-search-option li label { display:block }
+		.ie8 .rep-shared #header #site-search ul.site-search-option li label { clear:both }
+		.chrome .rep-shared #header #site-search ul.site-search-option li label input { width:25px }
+	.rep-shared #header #site-search ul.site-search-option li li:hover { background-color:#dfdfdf; cursor:pointer }
+	/**/
+
+
+
+	.rep-shared #header .manchette-left { float:left; width:160px; height:90px; border:1px solid #fff }
+	.rep-shared #header .manchette-right { float:right; width:160px; height:90px; border:1px solid #fff }
+	.rep-shared #header .logo { display:inline; float:left; width:650px; margin-left:8px; text-align:center; font-size:11px }
+	.rep-shared #header .logo .latest-update strong { color:#9f0d00 }
+	.rep-shared #header .logo img { display:block; clear:both; width:370px; margin:0 auto }
+	#brand .logo a,#brand .logo a:visited { float:none; text-transform:uppercase; font-weight:bold }
+
+	.rep-shared #header #search-bar { border-top:1px solid #dbdbdb; padding:8px 0 5px 0 }
+		.rep-shared #header #search-bar #site-search { margin:0; padding:0 }
+		.rep-shared #header #search-bar .left { }
+	
+	.rep-shared #header .repubblica-extra { display:block; float:left; background:#fff url(http://www.repubblica.it/static/images/homepage/2010/sprite-repubblica.png) no-repeat -10px -1502px; padding:2px 0 6px 85px; text-transform:uppercase; font-size:11px; line-height:12px }
+
+	/* Navigation */
+	.rep-shared #header ul.nav { display:block; width:990px; margin:0; background:#4e92c3 url(http://www.repubblica.it/static/images/homepage/2010/sprite-nav.png) bottom repeat-x }
+	.rep-shared #header ul.nav li { float:left }
+	.rep-shared #header ul.nav li a, .rep-shared #header ul.nav li a:visited { display:block; float:left; padding:5px 12px 5px 13px; font-size:13px; color:#fff; border-right:1px solid #3869a3; border-left:1px solid #4e92c3 }
+	.rep-shared #header ul.nav li a:hover { background-color:#54a9dc; border-color:#fff }
+	.rep-shared #header ul.nav li.active a,.rep-shared #header ul.nav li.active a:visited { background-color:#dbdbdb; color:#222; font-weight:bold; margin:-2px 0 0 0; padding-top:7px; border-color:#fff }
+	.rep-shared #header ul.nav li.first a, .rep-shared #header ul.nav li.first a:visited { border-left:none; padding-left:10px }
+	.rep-shared #header ul.nav li.last a, .rep-shared #header ul.nav li.last a:visited { border-right:none }
+	.rep-shared #header ul.nav li.special { background:#3869a3 url(http://www.repubblica.it/static/images/homepage/2010/sprite-nav-special.png) bottom repeat-x; float:right !important }
+	
+	.rep-shared #header ul.twolev { background:none; background-color:#dbdbdb; padding:5px 0; margin:0 0 10px 0 }
+	.rep-shared #header ul.twolev li a, .rep-shared #header ul.twolev li a:visited { padding:0 8px; line-height:17px; color:#222; border-left:none; border-right:1px solid #9b9b9b }
+	.rep-shared #header ul.twolev li a:hover { background:none; color:#9f0d00 }
+	.rep-shared #header ul.twolev li.last a { border:none }
+	.rep-shared #header ul.twolev li.active a, .rep-shared #header ul.twolev li.active a:visited { color:#9f0d00; margin:0; padding:0 10px }
+
+	/* lancio Economia e Finanza con Bloomberg 
+	.rep-shared #header ul.nav li#nav_affari-e-finanza a,
+	.rep-shared #header ul.nav li#nav_affari-e-finanza a:visited { background: #F88143 url(http://www.repubblica.it/static/images/economia/2011/sprite-nav.png) bottom repeat-x; border-color: #fff; padding-top: 7px; margin-top: -2px }
+	.rep-shared #header ul.nav li#nav_affari-e-finanza a:hover { background-color: #f8793a  }
+	/lancio Economia e Finanza con Bloomberg */
+
+
+/* Nuovo logo sport ---------------------------*/
+.section-sport .rep-shared #header #brand .left a img {padding:0}
+
+/* FOOTER ---------------------------*/
+#footer { padding:15px 0; margin:0 auto;}
+#footer ul.footer-small-service { list-style:none; background-color:#fff; margin:0; padding:8px 0; border-bottom:3px solid #dbdbdb;}
+#footer ul.footer-small-service:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+	* html #footer ul.footer-small-service{ zoom:1 }
+	*:first-child+html #footer ul.footer-small-service { zoom:1 }
+
+#footer ul.footer-small-service li { float:left; border-right:1px solid #9b9b9b }
+#footer ul.footer-small-service li.last { border:none }
+#footer ul.footer-small-service li a,#footer ul.footer-small-service li a:visited { display:block; font-size:11px; line-height:13px; padding:1px 8px }
+
+#footer p.footer-small { padding:8px; margin:0; font-size:11px; line-height:15px }
+#footer p.footer-small a, p.footer-small a:visited { font-weight:bold }
+.fixfooter-domination { padding-left:5px !important; padding-right:5px !important; margin-top:-10px !important }
+
+	/* Vetrine ------------------------------------ */
+	.shared-content-vetrina { display: none; padding: 3px 5px; margin-bottom: 10px; border:1px solid #dbdbdb; font-size:11px;	color: #9b9b9b; text-align: right }
+		.shared-content-vetrina:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+		* html .shared-content-vetrina { zoom:1 }
+		*:first-child+html .shared-content-vetrina { zoom:1 }
+	
+	.shared-content-vetrina hr { display:none }
+	.shared-content-vetrina br { height:5px }
+	
+	.shared-content-vetrina-whitebox:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0 }
+		* html .shared-content-vetrina-whitebox { zoom:1 }
+		*:first-child+html .shared-content-vetrina-whitebox { zoom:1 }
+	
+	.shared-content-vetrina-whitebox a, .shared-content-vetrina-whitebox a:visited { display:block; float:left; padding:6px 0 0 0; margin:6px 0 0 0; border-top:1px solid #dbdbdb; font:11px/13px Arial, Helvetica, sans-serif; color:#222; text-align:left }
+	.shared-content-vetrina-whitebox a:hover { color:#9f0d00 }
+	.shared-content-vetrina img { float:left; margin-right:5px }
+
+
+
+/* * * * * * * * * * * * * */
+@media print {
+	body { width:100% !important; margin:0 !important; padding:0 !important }
+	.rep-shared #header .nav li, .rep-shared #header #site-search, .rep-shared #header ul.footer-small-service,
+	.rep-shared #header .adv,
+	.rep-shared #header .manchette-left, .rep-shared #header .manchette-right, .rep-shared #header ul.network
+		{ display:none !important; text-indent:-9999px }
+	.rep-shared #header #brand { border:none }
+		
+	.page-content {
+		width: 100% !important;
+		margin: 0; padding: 0;
+		background: none;
+		overflow:visible !important;
+		float: none !important;
+		color: black; font-size:13pt !important; line-height:18pt !important;
+	}
+	* html .page-content { width:600px !important }
+	*:first-child+html .page-content { width:600px !important }
+}
+
+/* ------------------------------------------------------------
+ ERROR PAGES
+*/
+
+.error { text-align:center; margin:60px auto; width:700px }
+.error h2 { font-size:22px; font-weight:bold }
+.error a, .error a:visited { font-weight:bold}
+.error a:hover { text-decoration: underline}
+.error p { border-bottom:1px solid #d6d6d6; margin-bottom:10px; padding-bottom:10px}
+.error p.bordernone { border:none }
+.error p {margin: 0 }
+.error h2 {margin:20px 0 0 0 }
+.error a, .error a:visited { color:#00386B; text-decoration:none }
+
+/* ------------------------------------------------------------
+:: COLOR SKIN :: 
+red: 		9f0d00
+blue:		00386B
+green:		006B4A
+light blue: 2992c1
+black:		222
+:: 
+light gray:	dbdbdb
+dark gray: 	9b9b9b
+:: 
+*/

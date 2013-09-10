@@ -1,0 +1,87 @@
+.table {
+width: 800px;
+}
+
+.entryred {
+float:left;
+font-family: 'Comfortaa', cursive;
+font-syze: 13px;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double red;
+}
+
+.entrygreen {
+float:left;
+font-family: 'Comfortaa', cursive;
+font-syze: 13px;
+
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double #00CC33;
+}
+
+
+.entryorange {
+float:left;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double #FF9900 ;
+}
+
+.entryvio {
+float:left;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double #9933CC;
+}
+
+.entryblu {
+float:left;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double #0033FF;
+}
+
+.entryyel {
+float:left;
+margin-left: 5px;
+margin-right: 5px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+padding-top:10px;
+width: 210px;
+height: 150px;
+border:2px double #FFFF00;
+}

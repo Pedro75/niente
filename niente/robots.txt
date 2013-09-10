@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /sphider
+Disallow: /niente/poesie.php
